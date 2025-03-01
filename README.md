@@ -1,15 +1,37 @@
-# stat-projects-bin
+# THAM SKILLS
+# morida
 
-An infrastructure to run binaries to test the `stat-projects` on all platforms
-that support `docker-engine`.
+Foobar is a Python library for dealing with word pluralization.
 
-The binaries present in the directory `bin/` can be run directly on most Linux
-distributions without using the below instructions.
+## ramadan  karim 
 
-## How to run
 
-> To be able to run this script you need to have installed locally
-> [`docker-engine`](https://docs.docker.com/engine/install/)
+```        /$$$$$$$   /$$$$$$  /$$      /$$  /$$$$$$  /$$$$$$$   /$$$$$$  /$$   /$$      
+| $$__  $$ /$$__  $$| $$$    /$$$ /$$__  $$| $$__  $$ /$$__  $$| $$$ | $$      
+| $$  \ $$| $$  \ $$| $$$$  /$$$$| $$  \ $$| $$  \ $$| $$  \ $$| $$$$| $$     
+| $$$$$$$/| $$$$$$$$| $$ $$/$$ $$| $$$$$$$$| $$  | $$| $$$$$$$$| $$ $$ $$      
+| $$__  $$| $$__  $$| $$  $$$| $$| $$__  $$| $$  | $$| $$__  $$| $$  $$$$      
+| $$  \ $$| $$  | $$| $$\  $ | $$| $$  | $$| $$  | $$| $$  | $$| $$\  $$$     
+| $$  | $$| $$  | $$| $$ \/  | $$| $$  | $$| $$$$$$$/| $$  | $$| $$ \  $$      
+|__/  |__/|__/  |__/|__/     |__/|__/  |__/|_______/ |__/  |__/|__/  \__/   
+   ```
 
-Run the script `./run.sh <bin-name>`. The `<bin-name>` must be inside the
-`/bin` directory.
+
+## GO RUN 
+
+```
+
+go run  main.go data.txt 
+```
+ ## Objectives
+
+```
+The purpose of this project is for you to calculate the following:
+
+ -Average
+- Median
+- Variance
+- Standard Deviation
+
+```
+[MIT](https://choosealicense.com/licenses/mit/)
