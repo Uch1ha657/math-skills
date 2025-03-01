@@ -1,16 +1,22 @@
 package main
 
 import (
-	"morida/function"
 	"fmt"
 	"math"
 	"os"
 	"strconv"
 	"strings"
+
+	"morida/function"
 )
 
 func main() {
-	chi7aja, err := os.ReadFile("data.txt")
+	if len(os.Args) != 2 {
+		fmt.Println("go run . data.txt")
+		return
+	}
+	data := os.Args[1]
+	chi7aja, err := os.ReadFile(data)
 	if err != nil {
 		fmt.Println("read error file")
 		return

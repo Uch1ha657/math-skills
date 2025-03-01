@@ -1,45 +1,15 @@
-# THAM SKILLS
-# morida
+# stat-projects-bin
 
-Foobar is a Python library for dealing with word pluralization.
+An infrastructure to run binaries to test the `stat-projects` on all platforms
+that support `docker-engine`.
 
-## Installation
+The binaries present in the directory `bin/` can be run directly on most Linux
+distributions without using the below instructions.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## How to run
 
-```        /$$$$$$$   /$$$$$$  /$$      /$$  /$$$$$$  /$$$$$$$   /$$$$$$  /$$   /$$      
-| $$__  $$ /$$__  $$| $$$    /$$$ /$$__  $$| $$__  $$ /$$__  $$| $$$ | $$      
-| $$  \ $$| $$  \ $$| $$$$  /$$$$| $$  \ $$| $$  \ $$| $$  \ $$| $$$$| $$     
-| $$$$$$$/| $$$$$$$$| $$ $$/$$ $$| $$$$$$$$| $$  | $$| $$$$$$$$| $$ $$ $$      
-| $$__  $$| $$__  $$| $$  $$$| $$| $$__  $$| $$  | $$| $$__  $$| $$  $$$$      
-| $$  \ $$| $$  | $$| $$\  $ | $$| $$  | $$| $$  | $$| $$  | $$| $$\  $$$     
-| $$  | $$| $$  | $$| $$ \/  | $$| $$  | $$| $$$$$$$/| $$  | $$| $$ \  $$      
-|__/  |__/|__/  |__/|__/     |__/|__/  |__/|_______/ |__/  |__/|__/  \__/   
-   ```
+> To be able to run this script you need to have installed locally
+> [`docker-engine`](https://docs.docker.com/engine/install/)
 
-
-## GO RUN 
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MORIDA](https://github.com/Uch1ha657)
+Run the script `./run.sh <bin-name>`. The `<bin-name>` must be inside the
+`/bin` directory.
