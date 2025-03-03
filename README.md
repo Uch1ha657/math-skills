@@ -34,4 +34,4 @@ The purpose of this project is for you to calculate the following:
 - Standard Deviation
 
 ```
-[MIT](https://choosealicense.com/licenses/mit/)
+[morida](https://github.com/Uch1ha657)
