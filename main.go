@@ -40,8 +40,8 @@ func main() {
 	md := function.Median(nums)
 	vari := function.Variance(nums)
 	Stand := function.Standard(nums)
-	fmt.Println("avg:", int(math.Round(avg)))
-	fmt.Println("md:", int(math.Round(md)))
-	fmt.Println("vari:", int(math.Round(vari)))
-	fmt.Println("Stand", int(math.Round(Stand)))
+	fmt.Println("Average:", int(math.Round(avg)))
+	fmt.Println("Median:", int(math.Round(md)))
+	fmt.Println("Variance:", int(math.Round(vari)))
+	fmt.Println("Standard:", int(math.Round(Stand)))
 }
