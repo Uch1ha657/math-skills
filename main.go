@@ -43,5 +43,5 @@ func main() {
 	fmt.Println("Average:", int(math.Round(avg)))
 	fmt.Println("Median:", int(math.Round(md)))
 	fmt.Println("Variance:", int(math.Round(vari)))
-	fmt.Println("Standard:", int(math.Round(Stand)))
+	fmt.Println("Standard Deviation:", int(math.Round(Stand)))
 }
