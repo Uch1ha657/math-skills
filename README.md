@@ -1,7 +1,7 @@
 # MATH SKILLS
 # morida
 
-Foobar is a Python library for dealing with word pluralization.
+
 
 ## ramadan  karim 
 
